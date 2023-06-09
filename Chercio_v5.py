@@ -63,12 +63,12 @@ font = pygame.font.SysFont(None, 44)
 f_sans = pygame.font.SysFont('Comic Sans MS', 80)
 
 # Фоновая картинка
-BACKGROUND = pygame.image.load("Background.png")
+BACKGROUND = pygame.image.load("Background.jpg")
 BG_top = screen.get_height() - BACKGROUND.get_height()
 BG_left = screen.get_width()/2 - BACKGROUND.get_width()/2
 
 # Иконка сверху
-programIcon = pygame.image.load('icon.png')
+programIcon = pygame.image.load('icon.jpg')
 pygame.display.set_icon(programIcon)
 
 # Музыка
